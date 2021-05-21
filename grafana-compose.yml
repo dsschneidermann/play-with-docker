@@ -7,5 +7,5 @@ grafana:
     - 3000:3000
   environment:
     GF_INSTALL_PLUGINS: grafana-clock-panel,briangann-gauge-panel,natel-plotly-panel,grafana-simple-json-datasource
-    GF_SECURITY_ADMIN_PASSWORD=grafanaHeadshot123
-    GF_USERS_ALLOW_SIGN_UP=false
+    GF_SECURITY_ADMIN_PASSWORD: grafanaHeadshot123
+    GF_USERS_ALLOW_SIGN_UP: false
